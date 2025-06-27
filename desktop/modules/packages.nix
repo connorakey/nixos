@@ -23,6 +23,7 @@
     flatpak
     cava
     jq
+    ffmpeg
 
     # Programming Languages/Utilities
     gcc
@@ -63,16 +64,6 @@
     gtk3
     gtk4
 
-  ];
-
-  fonts.packages = with pkgs; [
-    noto-fonts
-    noto-fonts-emoji
-    nerd-fonts.fira-code
-    nerd-fonts.sauce-code-pro
-    nerd-fonts.ubuntu
-    nerd-fonts.ubuntu-mono
-    nerd-fonts.ubuntu-sans
   ];
 
 }

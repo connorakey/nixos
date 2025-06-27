@@ -6,6 +6,7 @@
     ./hardware-configuration.nix
     ../modules/bootloader.nix
     ../modules/packages.nix
+    ../modules/fonts.nix
     ../modules/services.nix
     ../modules/users.nix
   ];
