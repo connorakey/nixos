@@ -23,6 +23,9 @@
 
   services.emacs.enable = true;
 
+  virtualisation.podman.enable = true;
+  virtualisation.podman.dockerCompat = true;
+
   services.pipewire = {
     enable = true;
     pulse.enable = true;

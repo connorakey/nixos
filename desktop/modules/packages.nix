@@ -24,6 +24,7 @@
     cava
     jq
     ffmpeg
+    distrobox
 
     # Programming Languages/Utilities
     gcc
