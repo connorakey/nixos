@@ -13,6 +13,8 @@
     spotify
     _1password-gui
     emacs
+    eddie
+    qbittorrent # For torrenting Linux ISOs
 
     # CLI
     fastfetch
@@ -24,7 +26,6 @@
     cava
     jq
     ffmpeg
-    distrobox
 
     # Programming Languages/Utilities
     gcc
@@ -65,6 +66,11 @@
     gtk3
     gtk4
 
+  ];
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "dotnet-runtime-6.0.36"
+    "dotnet-sdk-6.0.428"
   ];
 
 }

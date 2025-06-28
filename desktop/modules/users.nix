@@ -4,7 +4,7 @@
     
     connor = {
       isNormalUser = true;
-      extraGroups = [ "wheel" "lp" "bluetooth" "podman" ];
+      extraGroups = [ "wheel" "lp" "bluetooth" ];
     };
 
   };
