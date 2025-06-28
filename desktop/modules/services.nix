@@ -26,6 +26,8 @@
   virtualisation.podman.enable = true;
   virtualisation.podman.dockerCompat = true;
 
+  services.polkit.enable = true;
+
   services.pipewire = {
     enable = true;
     pulse.enable = true;
