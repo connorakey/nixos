@@ -1,10 +1,11 @@
-{ config, lib, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   users.users = {
     connor = {
       isNormalUser = true;
-      extraGroups = [ "wheel" "lp" "bluetooth" ];
+      extraGroups = [ "wheel" "bluetooth" "lp" ];
     };
+
   };
 }

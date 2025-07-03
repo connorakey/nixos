@@ -1,10 +1,11 @@
-{ config, lib, pkgs, ... }:
+{ inputs, config, libs, pkgs, ... }:
 
 {
   imports = [
     ./hardware-configuration.nix
     ../modules/bootloader.nix
     ../modules/packages.nix
+    ../modules/fonts.nix
     ../modules/services.nix
     ../modules/users.nix
   ];
