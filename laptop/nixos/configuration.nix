@@ -15,7 +15,7 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   networking.hostName = "laptop";
 
-  time.timeZone = "Australia/Melbourne";
+  time.timeZone = "America/Los_Angeles";
 
   i18n.defaultLocale = "en_US.UTF-8";
 
