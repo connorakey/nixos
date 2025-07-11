@@ -10,9 +10,10 @@
     spotify
     _1password-gui
     emacs
-    eddie
+    eddie # VPN client for AirVPN
     qbittorrent # for torrenting linux isos
     whatsie # FOSS WhatsApp Client for Linux
+    stremio
 
     # CLI
     fastfetch
